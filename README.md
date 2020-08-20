@@ -5,4 +5,13 @@ Olá!
 
 Neste repositório pretendo compartilhar alguns estudos de css.
 
-Aos poucos, vamos atualizando...
+Aos poucos, vamos atualizando.
+
+
+<h2>GRID SYSTEM</h2>
+
+Este é primeiro estudo deste repositório e me foi muito útil para entender como funciona o grid system de CSS. Fiz o contudo seguindo <a href=˜https://www.youtube.com/watch?v=HN1UjzRSdBk˜>uma aula do Miyk Brito, da Rocketseat.</a>
+
+<h2>ALINHAMENTO</h2>
+
+FInalizei este estudo seguindo as orientações da mesma aula citada acima.

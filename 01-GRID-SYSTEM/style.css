@@ -1,0 +1,71 @@
+html, body {
+margin:0;
+padding:0;
+box-sizing:border-box;
+background: #7159c1;
+}
+
+header {
+    background: yellow;
+    grid-area: topo;
+  
+    
+    /* 
+    
+    Determina em quais linhas o header deve iniciar e finalizar
+    
+    -- Primeiro jeito de se escrever  -- 
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end: 4;
+    
+    -- Segundo jeito de se escrever --
+    
+    grid-column: 1/3;
+    grid-row: 3/4;
+
+    -- Para o terceiro meio ver grid-template-areas: em .container;
+
+    */
+
+
+}
+
+main {
+    background: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area: meioesq;
+}
+
+aside{
+    background: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-area: meiodir;
+}
+
+footer{
+    background: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-area: rodape;
+}
+
+.container {
+    display: grid;  /* iniciei meu grid */
+    grid-template-columns: 3fr 1fr; /* determina o número de colunas */
+    grid-template-rows: 20vh 70vh 10vh; /* determina a altura de cada coluna */
+    grid-template-areas: "topo topo"
+                        "meioesq meiodir"
+                        "rodape rodape"
+
+/* 
+    determina o espaço entre a linha e a coluna 
+    grid-row-gap: 20px; 
+    grid-column-gap: 5px;
+
+*/
+}
