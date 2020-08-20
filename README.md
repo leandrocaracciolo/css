@@ -10,7 +10,8 @@ Aos poucos, vamos atualizando.
 
 <h2>GRID SYSTEM</h2>
 
-Este é primeiro estudo deste repositório e me foi muito útil para entender como funciona o grid system de CSS. Fiz o contudo seguindo <a href=˜https://www.youtube.com/watch?v=HN1UjzRSdBk˜> uma aula do Miyk Brito</a>, da Rocketseat.</a>
+Este é primeiro estudo deste repositório e me foi muito útil para entender como funciona o grid system de CSS. Fiz o contudo seguindo  uma aula do Miyk Brito, da Rocketseat: https://www.youtube.com/watch?v=HN1UjzRSdBk
+
 
 <h2>ALINHAMENTO</h2>
 
